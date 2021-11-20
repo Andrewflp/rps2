@@ -10,7 +10,7 @@ define('DB_NAME', 'games');
 
 $con= mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
-// check if connect is ok, or else display error message
+// check if connection is ok, or else display an error message
 
 if($con === false) { die("Error Cannot connect" . msqli_connect_Error()); }
 
